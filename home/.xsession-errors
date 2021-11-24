@@ -1,0 +1,40 @@
+xfsettingsd: no process found
+picom: no process found
+polybar: no process found
+mpd: no process found
+dunst: no process found
+ksuperkey: no process found
+xfce4-power-manager: no process found
+polybar|error: module/mpd: Connection refused
+polybar|error: module/song: Connection refused
+
+ERROR: openbox-xdg-autostart requires PyXDG to be installed
+
+** (xfce4-power-manager:972): WARNING **: 10:59:00.611: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.freedesktop.PowerManagement': no such name
+
+
+** (xfce4-power-manager:972): WARNING **: 10:59:00.612: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.xfce.PowerManager': no such name
+
+
+(xfce4-power-manager:972): xfce4-power-manager-WARNING **: 10:59:00.623: Unable to connect to session manager : Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+Oct 22 10:59 : exception: Decoder plugin 'wildmidi' is unavailable: configuration file does not exist: /etc/timidity/timidity.cfg
+Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+
+(xfce4-power-manager:972): GLib-GObject-WARNING **: 10:59:01.512: ../glib/gobject/gsignal.c:2614: signal 'Changed' is invalid for instance '0x55c29385f540' of type 'GDBusProxy'
+
+(xfce4-power-manager:972): xfce4-power-manager-WARNING **: 10:59:01.585: could not map keysym 1008ffa8 to keycode
+
+
+(xfce4-power-manager:972): xfce4-power-manager-WARNING **: 10:59:01.657: It seems the kernel brightness switch handling value was not restored properly on exit last time, xfce4-power-manager will try to restore it this time.
+
+(xfce4-power-manager:972): xfce4-power-manager-WARNING **: 10:59:01.657: Unable to set the kernel brightness switch parameter to 1.
+
+(xfce4-power-manager:972): xfce4-power-manager-WARNING **: 10:59:01.661: Failed to get keyboard max brightness level : GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/freedesktop/UPower/KbdBacklight”
+polybar|error: Disabling module "battery" (reason: No suitable way to get current capacity value)
+polybar|error: tray: Failed to put tray above 0x1800002 in the stack (XCB_MATCH (8))
+
+(thunar:1007): Gtk-CRITICAL **: 10:59:27.555: gtk_widget_grab_focus: assertion 'GTK_IS_WIDGET (widget)' failed
+
+** (pcmanfm:1366): WARNING **: 11:00:07.848: terminal bspterm isn't known, consider report it to LibFM developers
+
+(pcmanfm:1366): Gtk-WARNING **: 11:04:57.761: Failed to set text from markup due to error parsing markup: Error on line 1: Entity did not end with a semicolon; most likely you used an ampersand character without intending to start an entity — escape ampersand as &amp;
