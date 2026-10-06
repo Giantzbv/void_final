@@ -1,0 +1,43 @@
+[[window_rule]]
+blur = false
+hdr = "auto"
+
+[[window_rule]]
+match.app_id = "^helium$"
+focus_on_activate = true
+match.is_alone = true
+default_maximize = true
+
+[[window_rule]]
+match.app_id = "^dev.noctalia.Noctalia$"
+blur = true
+blur_optimized = false
+default_floating = true
+default_floating_size_px = { width = 1020, height = 900 }
+blur_popups = false
+opacity = 0.75
+
+[[window_rule]]
+match.app_id = "^(kitty|code|foot)$"
+blur = true
+blur_ignore_alpha = 0.5
+opacity = 0.75
+
+[[window_rule]]
+match.app_id = "^(neovide|dev\\.zed\\.Zed)$"
+opacity = 0.85
+blur_popups = true
+blur_ignore_alpha = 0.5
+blur = true
+
+[[window_rule]]
+match.app_id = "^(org.kde.dolphin|kdesystemsettings)$"
+blur = true
+blur_ignore_alpha = 0.5
+opacity = 0.9
+
+[[layer_rule]]
+match.namespace = "^noctalia-(bar-[^\"]+|notification|dock|panel|attached-panel|osd|desktop-widget-[^\"]*)$"
+blur = true
+blur_ignore_alpha = 0.5
+blur_popups = true

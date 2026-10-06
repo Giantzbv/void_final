@@ -1,0 +1,13 @@
+[general]
+autostart = [
+  "sh -c 'sleep 2 && fcitx5 -D'",
+  "otd-daemon",
+  "systemctl --user start opentabletdriver",
+  "env XDG_MENU_PREFIX=plasma- kbuildsycoca6",
+  "noctalia",
+]
+
+mod_key = "Super"
+xwayland = true
+show_cheatsheet = true
+focus_on_activate = false

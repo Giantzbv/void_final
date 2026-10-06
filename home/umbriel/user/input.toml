@@ -1,0 +1,11 @@
+[hot_corners.top_left]
+enabled = true
+delay_ms = 100
+action = "overview-open"
+
+[input.touchpad]
+tap = true
+natural_scroll = true
+
+[input.focus]
+follows_mouse = true

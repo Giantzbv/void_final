@@ -1,0 +1,5 @@
+[keybinds]
+"Mod+Shift+Space" = "window-move-to-scratchpad"
+"Ctrl+Shift+S" = "scratchpad-toggle"
+"Mod+Ctrl+Space" = "window-restore-from-scratchpad"
+"Mod+Tab" = "scratchpad-focus-next"

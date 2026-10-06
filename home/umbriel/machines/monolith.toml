@@ -1,0 +1,15 @@
+[output.HDMI-A-1]
+mode = "1920x1080@74.973"
+position = [0, 0]
+scale = 1
+workspaces = "dynamic"
+hdr = "auto"
+#transform
+#enabled
+#vrr
+
+[output.eDP-1]
+mode = "1920x1080@60.056"
+position = [1920, 0]
+scale = 1
+workspaces = "dynamic"

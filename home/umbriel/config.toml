@@ -1,0 +1,18 @@
+[include]
+files = [
+  "user/appearance.toml",
+  "user/animation.toml",
+  "user/general.toml",
+  "user/input.toml",
+  "user/keybinds.toml",
+  "user/rules.toml",
+  "user/workspaces.toml",
+  "user/env.toml",
+  "user/scratchpad.toml",
+  "machines/monolith.toml",
+
+  #"toggle/battery_toggle.toml",
+]
+
+[include.optional]
+files = ["noctalia.toml"]

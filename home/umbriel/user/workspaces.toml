@@ -1,0 +1,18 @@
+[workspaces]
+back_and_forth = true
+
+[layout]
+mode = "scrolling"
+gap = 13
+extent_presets = [0.333, 0.5, 0.667]
+
+[layout.scrolling]
+default_extent_fraction = 0.5
+center_underfull_strip = true
+
+[overview]
+zoom = 0.5                   # preview scale (0.1-0.75)
+background_blur = true       # uses your blur settings
+workspace_wallpaper = true   # mirror wallpapers in previews
+shortcuts = true             # keyboard badges on windows
+shortcut_keys = "1234567890"
